@@ -1,0 +1,79 @@
+import java.util.*;
+
+// Define a class for flights
+class Flight {
+    private String flightNumber;
+    private String origin;
+    private String destination;
+    private Date departureDate;
+    private Date arrivalDate;
+    private double price;
+
+    // Constructor
+    public Flight(String flightNumber, String origin, String destination, Date departureDate, Date arrivalDate, double price) {
+        this.flightNumber = flightNumber;
+        this.origin = origin;
+        this.destination = destination;
+        this.departureDate = departureDate;
+        this.arrivalDate = arrivalDate;
+        this.price = price;
+    }
+
+    // Getters and setters
+    // Add getters and setters for all fields
+}
+
+// Define a class for hotels
+class Hotel {
+    private String name;
+    private String location;
+    private int numberOfRooms;
+    private double pricePerNight;
+
+    // Constructor
+    public Hotel(String name, String location, int numberOfRooms, double pricePerNight) {
+        this.name = name;
+        this.location = location;
+        this.numberOfRooms = numberOfRooms;
+        this.pricePerNight = pricePerNight;
+    }
+
+    // Getters and setters
+    // Add getters and setters for all fields
+}
+
+// Define a class for transportation
+class Transportation {
+    private String type;
+    private double price;
+
+    // Constructor
+    public Transportation(String type, double price) {
+        this.type = type;
+        this.price = price;
+    }
+
+    // Getters and setters
+    // Add getters and setters for all fields
+}
+
+// Define a class for bookings
+class Booking {
+    private Flight flight;
+    private Hotel hotel;
+    private Transportation transportation;
+
+    // Constructor
+    public Booking(Flight flight, Hotel hotel, Transportation transportation) {
+        this.flight = flight;
+        this.hotel = hotel;
+        this.transportation = transportation;
+    }
+
+    // Getters and setters
+    // Add getters and setters for all fields
+}
+
+// Main class to test the system
+public class TravelBookingSystem {
+    public static void main(String[] args)
